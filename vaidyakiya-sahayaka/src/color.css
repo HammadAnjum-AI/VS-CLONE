@@ -1,0 +1,337 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  nav {
+    background-color: #24d8b1;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  nav img {
+    vertical-align: middle;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #24d8b1;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="password"],
+  input[type="email"],
+  input[type="date"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 10px 16px;
+    margin: 5px;
+    background-color: #24d8b1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #115293;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .home-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .home-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .home-container button {
+    margin: 10px;
+  }
+  
+
+  .error {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 10px;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+nav {
+    background-color: #24d8b1;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav img {
+    vertical-align: middle;
+}
+
+.home-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home-container h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.home-container h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.home-container p {
+    font-size: 1.1em;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.home-actions {
+    margin-top: 30px;
+}
+
+.home-actions button {
+    padding: 10px 16px;
+    margin: 10px;
+    background-color: #24d8b1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em;
+}
+
+.home-actions button:hover {
+    background-color: #115293;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: white; 
+  font-weight: bold;
+}
+
+.logout-button {
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+/* Admin Page Styling */
+.admin-container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.admin-container h1 {
+  text-align: center;
+  color: #24d8b1;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.admin-box {
+  background-color: white;
+  border: 2px solid #24d8b1;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.admin-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  background-color: #e0fdf6;
+}
+
+.admin-box h3 {
+  color: #115293;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.admin-box p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.patient-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.patient-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.patient-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.patient-card h3 {
+  color: #24d8b1;
+  margin-bottom: 10px;
+}
+
+.patient-card p {
+  margin: 5px 0;
+}
+
+.view-details-button {
+  background-color: #24d8b1;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.view-details-button:hover {
+  background-color: #0056b3;
+}
+
+.details-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details-container h3 {
+  color: #24d8b1;
+  margin-bottom: 20px;
+}
+
+.details-container textarea,
+.details-container input[type="text"],
+.details-container input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.details-container button {
+  background-color: #24d8b1;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.details-container button:hover {
+  background-color: #1ab89b;
+}
+
